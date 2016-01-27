@@ -1,4 +1,6 @@
 # SimpleSysMon
+![Screenshot](https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xtp1/t31.0-8/12633641_10153755249295944_7509260030461482414_o.jpg "Screenie!")
+
 Simple SNMP-based "Monitorix-like" system monitor. 
 
 This includes parts of several open source projects that I used to build this off of:
