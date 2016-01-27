@@ -1,0 +1,125 @@
+.th_sm_med { height: 156px; width: 156px; }
+
+.UButton { border: 3px solid #2A2A2A; border-radius: 10px; background-color: white; color: black; } 
+
+.UPop { clear: both; display: inline; }
+.UPopO { display: none; }
+
+.UPop:hover .UPopO
+{
+background-color: #363636;
+border: 2px solid white;
+border-radius: 3px;
+color: white;
+clear: both;
+display: block;
+float: right;
+height: auto;
+position: absolute;
+margin: 0;
+max-height: 256px;
+max-width: 320px;
+overflow: auto;
+padding: 6px;
+width: auto;
+z-index: 10;
+}
+
+.UPopC { clear: both; display: inline; }
+.UPopCO { display: none; }
+
+.UPopC:hover .UPopCO
+{
+background-color: #363636;
+border: 2px solid white;
+border-radius: 3px;
+color: white;
+clear: both;
+display: block;
+float: right;
+height: auto;
+left: 50%;
+position: absolute;
+margin-left: -150px;
+margin-right: -150px;
+max-height: 320px;
+max-width: 320px;
+overflow: auto;
+padding: 6px;
+top: 50%;
+width: auto;
+z-index: 10;
+}
+
+.UPopNM { clear: both; display: inline; }
+.UPopNMO { display: none; }
+
+.UPopNM:hover .UPopNMO
+{
+background-color: #363636;
+border: 2px solid white;
+border-radius: 3px;
+color: white;
+clear: both;
+display: block;
+float: right;
+height: auto;
+position: absolute;
+margin: 0;
+max-height: 256px;
+overflow: auto;
+padding: 6px;
+width: auto;
+z-index: 10;
+}
+
+body
+{
+background-color: black;
+color: white;
+font-family: Verdana;
+font-size: 10pt;
+text-align: left;
+}
+
+h1 { background-color: #363636; color: white; text-align: left; }
+h2 { background-color: #4D4D4D; color: white; text-align: left; }
+h3 { background-color: #5E5E5E; color: white; text-align: left; }
+h4 { background-color: #6F6F6F; color: white; text-align: left; }
+
+input { background-color: yellow; border: red; color: black; }
+	
+li { font-weight: bold; }
+table { border-width: 3px; border-style: solid; border-color: #4D4D4D; }
+
+td
+{
+background-color: #2A2A2A;
+border-color: #363636;
+border-style: solid;
+border-width: 1px;
+color: white;
+padding: 2px;
+}
+
+th
+{
+background-color: #5E5E5E;
+border-color: #2B2B2B;
+border-style: solid;
+border-width: 2px;
+color: white;
+}
+
+DIV.table { border-width: 3px; border-style: solid; border-color: #4D4D4D; display: table; }
+DIV.tr, FORM.tr { border-width: 3px; border-style: solid; border-color: #4D4D4D; display: table-row; }
+
+SPAN.td {
+background-color: #2A2A2A;
+border-color: #363636;
+border-style: solid;
+border-width: 1px;
+color: white;
+display: table-cell;
+padding: 2px;
+}
